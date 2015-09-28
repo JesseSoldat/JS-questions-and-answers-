@@ -6,6 +6,8 @@
   var output = document.getElementById("msg").innerHTML=message;
 
 
+
+
 //console.log(message);
 // Store some information following in variables.
 var yourName;
@@ -19,4 +21,6 @@ instructorName = "Tim";
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName +"."; 
 
+var output2 = document.getElementById("msg2").innerHTML= statement;
 console.log(statement);
+ output.innerHTML += statement;
