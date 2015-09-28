@@ -3,22 +3,22 @@
 */
 var givenName;
 // Q: What does `givenName` equal right now?
-// A:
+// A: undefined
 
 
 givenName = "Tim";
 // Q: What is `givenName` set to right now?
-// A:
+// A: the string "Tim"
 
 
 givenName = "JD";
 // Q: What is `givenName` set to right now?
-// A:
+// A: the string "JD"
 
 
 var greeting = "Hello, how are you?";
 // Q: What is `greeting` set to?
-// A:
+// A: the string "Hello, how are you?"
 
 
 /*=========================================================
@@ -31,11 +31,11 @@ var low  = 10;
 
 var math = high - low;
 // Q: What is `math` set to?
-// A:
+// A: 60
 
 math = high - "5";
 // Q: What is `math` set to?
-// A:
+// A: "55"
 
 
 /* =========================================================
@@ -44,11 +44,13 @@ math = high - "5";
 
 // Create a variable to calculate Tim's age
 // The answer should read "Tim is 32 years old"
-// The answer shoud not be written in a comment.
+// The answer should not be written in a comment.
 var born = 1983;
 var today = 2015;
-
-// Answers Below:
+var name = "Tim";
+var age = today - born;
+  
+var message = name + " is " + age + " years old";
 
 
 
@@ -56,9 +58,11 @@ var today = 2015;
 var yourName;
 var instructorName;
 
+
 // Update the variables above so the expression reads correctly.
 // Answers Below:
-
+yourName = "Jesse";
+instructorName = "Tim";
 
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
