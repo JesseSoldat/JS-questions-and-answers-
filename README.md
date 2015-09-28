@@ -1,0 +1,1 @@
+This is a project where we were given some questions in the main.js file to answer to practice the fundamentals of JavaScript 
